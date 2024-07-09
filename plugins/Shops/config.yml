@@ -1,0 +1,11 @@
+command:
+  shops:
+    enabled: true
+    requiredRank: ADMIN
+    reload:
+      enabled: true
+      requiredRank: ADMIN
+    spawn:
+      enabled: true
+      requiredRank: ADMIN
+shopkeepers:

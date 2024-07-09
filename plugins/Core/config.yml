@@ -1,0 +1,299 @@
+core:
+  database:
+    local:
+      databaseName: betterpvp
+      username: user
+      password: BetterPvP123!
+      ip: 127.0.0.1:27821
+      maxPoolSize: 7
+    global:
+      databaseName: betterpvp_global
+      username: user
+      password: BetterPvP123!
+      ip: 127.0.0.1:27821
+      maxPoolSize: 2
+  redis:
+    enabled: false
+    password: BetterPvPAdmin123!
+    host: 127.0.0.1
+    port: 27822
+  tips:
+    timeBetweenTips: 150.0
+  exceptions:
+    discord-webhook: ''
+  salt: ''
+pvp:
+  enableOldPvP: true
+  hitboxCooldown: 0.1
+  hitboxExpansion: 0.1
+gamer:
+  default:
+    coins: 5000
+    fragments: 0
+hunger:
+  enabled: false
+discord:
+  chatWebhook: ''
+weather:
+  enabled: false
+items:
+  hideAttributes: true
+  hideEnchants: true
+command:
+  list:
+    enabled: true
+    requiredRank: PLAYER
+  teleport:
+    enabled: true
+    requiredRank: ADMIN
+  teleportposition:
+    enabled: true
+    requiredRank: ADMIN
+  client:
+    enabled: true
+    requiredRank: ADMIN
+    admin:
+      enabled: true
+      requiredRank: ADMIN
+    search:
+      enabled: true
+      requiredRank: ADMIN
+    promote:
+      enabled: true
+      requiredRank: ADMIN
+    demote:
+      enabled: true
+      requiredRank: ADMIN
+  teleportworld:
+    enabled: true
+    requiredRank: ADMIN
+  kick:
+    enabled: true
+    requiredRank: ADMIN
+  search:
+    enabled: true
+    requiredRank: ADMIN
+    online:
+      enabled: true
+      requiredRank: ADMIN
+    player:
+      enabled: true
+      requiredRank: ADMIN
+    item:
+      enabled: true
+      requiredRank: ADMIN
+  teleporthere:
+    enabled: true
+    requiredRank: ADMIN
+  test:
+    enabled: true
+    requiredRank: ADMIN
+  gamemode:
+    enabled: true
+    requiredRank: ADMIN
+    creative:
+      enabled: true
+      requiredRank: ADMIN
+    survival:
+      enabled: true
+      requiredRank: ADMIN
+    adventure:
+      enabled: true
+      requiredRank: ADMIN
+    spectator:
+      enabled: true
+      requiredRank: ADMIN
+      test:
+        enabled: true
+        requiredRank: ADMIN
+  setspawn:
+    enabled: true
+    requiredRank: ADMIN
+  core:
+    enabled: true
+    requiredRank: ADMIN
+    reload:
+      enabled: true
+      requiredRank: ADMIN
+  settings:
+    enabled: true
+    requiredRank: PLAYER
+  heal:
+    enabled: true
+    requiredRank: ADMIN
+  balance:
+    enabled: true
+    requiredRank: PLAYER
+    pay:
+      enabled: true
+      requiredRank: PLAYER
+    give:
+      enabled: true
+      requiredRank: ADMIN
+    set:
+      enabled: true
+      requiredRank: ADMIN
+    get:
+      enabled: true
+      requiredRank: ADMIN
+  iteminfo:
+    enabled: true
+    requiredRank: ADMIN
+  kill:
+    enabled: true
+    requiredRank: PLAYER
+  spawn:
+    enabled: true
+    requiredRank: ADMIN
+  leaderboard:
+    enabled: true
+    requiredRank: PLAYER
+  staffchat:
+    enabled: true
+    requiredRank: ADMIN
+  messageadmin:
+    enabled: true
+    requiredRank: ADMIN
+  replyadmin:
+    enabled: true
+    requiredRank: PLAYER
+  display:
+    enabled: true
+    requiredRank: ADMIN
+    remove:
+      enabled: true
+      requiredRank: ADMIN
+    select:
+      enabled: true
+      requiredRank: ADMIN
+    deselect:
+      enabled: true
+      requiredRank: ADMIN
+    summon:
+      enabled: true
+      requiredRank: ADMIN
+    transform:
+      enabled: true
+      requiredRank: ADMIN
+      scale:
+        enabled: true
+        requiredRank: ADMIN
+      rotate:
+        enabled: true
+        requiredRank: ADMIN
+      translate:
+        enabled: true
+        requiredRank: ADMIN
+    interpolation:
+      enabled: true
+      requiredRank: ADMIN
+  broadcast:
+    enabled: true
+    requiredRank: ADMIN
+  invsee:
+    enabled: true
+    requiredRank: ADMIN
+  customeffect:
+    enabled: true
+    requiredRank: ADMIN
+    give:
+      enabled: true
+      requiredRank: ADMIN
+    clear:
+      enabled: true
+      requiredRank: ADMIN
+  customgive:
+    enabled: true
+    requiredRank: ADMIN
+  reply:
+    enabled: true
+    requiredRank: PLAYER
+  message:
+    enabled: true
+    requiredRank: PLAYER
+  tip:
+    enabled: true
+    requiredRank: ADMIN
+  setviewdistance:
+    enabled: true
+    requiredRank: ADMIN
+  log:
+    enabled: true
+    requiredRank: ADMIN
+    legend:
+      enabled: true
+      requiredRank: ADMIN
+  world:
+    enabled: true
+    requiredRank: ADMIN
+  punish:
+    enabled: true
+    requiredRank: ADMIN
+    add:
+      enabled: true
+      requiredRank: ADMIN
+    remove:
+      enabled: true
+      requiredRank: ADMIN
+    history:
+      enabled: true
+      requiredRank: ADMIN
+  loadpack:
+    enabled: true
+    requiredRank: ADMIN
+  unfreeze:
+    enabled: true
+    requiredRank: ADMIN
+  freeze:
+    enabled: true
+    requiredRank: ADMIN
+  daily:
+    enabled: true
+    requiredRank: PLAYER
+  admin:
+    enabled: true
+    requiredRank: PLAYER
+  showitem:
+    enabled: true
+    requiredRank: ADMIN
+list:
+  test:
+  - '1'
+  - '2'
+  - '3'
+tab:
+  title: Welcome!
+  website: https://google.com
+  server: Clans-1
+  shop: amazon.com
+energy:
+  nerf-energy-regen: false
+combat:
+  crit-arrows: false
+server:
+  unlimitedPlayers: false
+  maxPlayers: 150
+combatlog:
+  valuable-items:
+  - TNT
+  - MUSIC_DISC_PIGSTEP
+  - MUSIC_DISC_WAIT
+  - MUSIC_DISC_13
+update-event:
+  allow-rollover: false
+spawns:
+  NorthSpawn: world, -8.510855573650886, 181.0, -601.5063510988538, -0.2960205, 1.5005822
+  SouthSpawn: world, -8.49615239736855, 181.0, 600.3614975986515, -179.39966, 1.4999776
+daily:
+  coinsAmount: 24000
+recipe:
+  minecraft:
+    diamond_axe: false
+    diamond_sword: false
+    golden_axe: false
+    golden_sword: false
+    netherite_sword: false
+    netherite_axe: false
+    netherise_pickaxe: false
+    netherite_hoe: false
+    glass_bottle: false
